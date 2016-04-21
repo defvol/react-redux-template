@@ -1,0 +1,29 @@
+{
+  "name": "react-redux-template",
+  "version": "0.1.0",
+  "description": "A minimalist boilerplate for react-redux frontend.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "redux",
+    "template"
+  ],
+  "author": "Rodolfo Wilhelmy",
+  "license": "WTFPL",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "react-fatigue-dev": "github:tj/react-fatigue-dev"
+  },
+  "dependencies": {
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.1"
+  }
+}
