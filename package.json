@@ -4,7 +4,7 @@
   "description": "A minimalist boilerplate for react-redux frontend.",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape -r babel-register test/**/*.js | faucet"
   },
   "keywords": [
     "boilerplate",
@@ -23,7 +23,9 @@
     "react-fatigue-dev": "github:tj/react-fatigue-dev"
   },
   "dependencies": {
+    "faucet": "0.0.1",
     "react-redux": "^4.4.5",
-    "redux": "^3.5.1"
+    "redux": "^3.5.1",
+    "tape": "^4.5.1"
   }
 }

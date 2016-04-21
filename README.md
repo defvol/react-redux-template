@@ -18,4 +18,10 @@ How to run:
 % make start
 ```
 
+How to test:
+
+```bash
+% npm test
+```
+
 License: [WTFPL](http://www.wtfpl.net/txt/copying/)
